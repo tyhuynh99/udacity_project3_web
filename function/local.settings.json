@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storageacct300;AccountKey=e67mIBPhsdk/Bt+T8mfUguLWGWcyY7L4DS7MpcIrUj9bHh1lccg9gElXcIpf9D/jqK3OhBxx7sG6uqahsOoZSA==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "servbus300_SERVICEBUS": "Endpoint=sb://servbus300.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=5FTpAO5hJ2L7mOKqu4pP9qkOEK47Bjp4je9Pind1KAo=",
+    "POSTGRES_URL": "postgre300.postgres.database.azure.com",
+    "POSTGRES_USER": "tyhuynh@postgre300",
+    "POSTGRES_PW": "P@ssw0rd1234",
+    "POSTGRES_DB": "techconfdb",
+    "SENDGRID_API_KEY": "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",
+    "ADMIN_EMAIL_ADDRESS": "tyhuynh99@gmail.com",
+    "AzureWebJobs.ServiceBusQueueTrigger1.Disabled": "true"
+  }
+}
