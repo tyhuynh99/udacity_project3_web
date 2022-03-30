@@ -27,7 +27,7 @@ This is a placeholder section where you can provide an explanation and reasoning
         - Multiple languages and frameworks supported: ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP, or Python...
         - Global scale with high availability: Scale up or out manually or automatically.
         - Infrastructure is managed by Azure, so we can focus on business logic.
-    - How this architecture removes the flaws of the traditional app deployed on-premise in terms of scalability and handling timeout exceptions:
+    - How this architecture removes the flaws of the traditional app deployed on-premise in terms of scalability:
         - Scalability: On-premise can hamper your business growth due to a lack of scalability. Updates usually require modifications to software and hardware. With Azure Web App service, we can scale up (Get more CPU, memory, disk space...) or scale out (increase the number of VM instances that run your app) by change the pricing tier of App Service Plan and it cost less than update hardware.
 - For the Azure Function, I choose the  Consumption plan pricing because it includes a monthly free grant of 1 million requests and 400,000 GB-s of resource consumption per month per subscription in pay-as-you-go pricing across all function apps in that subscription. The recent function performs simple task, it does not require high performance, so I don't need to upgrade to the Premium plan.
     - Cost-effectiveness: Only pay for the computing resources based on the number of executions, time of execution, and memory used
